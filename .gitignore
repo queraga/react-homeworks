@@ -1,0 +1,13 @@
+#mac OS system files
+.DS_Store
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Vite/React cache
+.vite/
