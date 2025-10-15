@@ -1,16 +1,59 @@
-# React + Vite
+# React Homework 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is the second homework assignment for React learning.
 
-Currently, two official plugins are available:
+It includes three main components:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Components
 
-## React Compiler
+### 1. `Greeting`
+Displays a personal greeting message using a passed prop (`name`).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```jsx
+<Greeting name="Yevhen" />
+```
 
-## Expanding the ESLint configuration
+### 2. `ShoppingList`
+Renders a shopping list with a check for an empty array.
+If the list is empty, a fallback message is shown.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+<ShoppingList items={['Milch', 'Apfel', 'Brot']} />
+```
+
+### 3. `OrderStatus`
+Accepts an array of orders with orderId and status, and renders them as a list of status messages.
+
+Example:
+```
+<OrderStatus orderId={101} status="Delivered" />
+```
+In the app, multiple OrderStatus components are rendered using .map()
+
+## Folder Structure
+
+```
+homework02/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Greeting.jsx
+│   │   ├── ShoppingList.jsx
+│   │   └── OrderStatus.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+├── package.json
+├── package-lock.json
+├── vite.config.js
+
+```
+## Getting Started
+To run this app locally:
+
+npm install
+npm run dev
+
+Notes
+	•	Built using Vite + React
+	•	No external component libraries used
+	•	All components are functional and follow React best practices
