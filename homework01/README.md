@@ -31,6 +31,7 @@ homework01/
 │   ├── App.jsx
 │   └── main.jsx
 ├── package.json
+├── package-lock.json
 └── vite.config.js
 ```
 
