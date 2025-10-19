@@ -1,0 +1,28 @@
+.quizContainer {
+  background-color: blanchedalmond;
+  padding: 20px;
+  max-width: 420px;
+  margin: 40px, auto;
+  border-radius: 16px;
+  text-align: center;
+}
+.quizContainer > p {
+  font-size: 26px;
+}
+
+button {
+  padding: 8px;
+  margin-left: 12px;
+  border-radius: 12px;
+  border: none;
+  background-color: aquamarine;
+  color: black;
+  font-weight: 800;
+}
+
+input {
+  width: 120px;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 14px;
+}
