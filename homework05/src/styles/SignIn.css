@@ -1,0 +1,101 @@
+.buttons button img {
+  width: 72px;
+  height: 72px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.buttons button {
+  background-color: #1ed760;
+  border: none;
+  border-radius: 30px;
+  padding: 22px;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: background-color 0.4s ease, transform 0.4s ease;
+  width: 97px;
+  height: 98px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button:hover {
+  background-color: #1181f1;
+  transform: translateY(-10px);
+}
+
+.buttonWrapper {
+  border: 2px solid #1ed760;
+  border-radius: 65px;
+  padding: 36px 40px;
+}
+
+.signIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #1ed760;
+  font-family: "Rubik", sans-serif;
+}
+
+.tagLine {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  margin-top: 111px;
+}
+.text {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 31px;
+  text-align: center;
+}
+.logo {
+  position: absolute;
+  top: 55px;
+  left: 35px;
+}
+
+@media (max-width: 986px) {
+  .tagLine {
+    font-size: 38px;
+    text-align: center;
+  }
+  .text {
+    font-size: 22px;
+  }
+  .logo {
+    top: 16px;
+    left: 16px;
+  }
+}
+@media (max-width: 520px) {
+  .buttonWrapper {
+    gap: 12px;
+    padding: 16px;
+    border-radius: 28px;
+  }
+
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 16px;
+    transform: translateX(-50%);
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
