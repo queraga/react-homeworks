@@ -32,6 +32,7 @@ npm install
 npm run dev
 
 The project will be available at http://localhost:5173
+```
 
 Project Structure
 
