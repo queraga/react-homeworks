@@ -1,0 +1,47 @@
+.jobsSection {
+  background-color: #e4f2ff;
+  padding: 80px 170px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.header h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 12px;
+}
+
+header p {
+  font-size: 15px;
+  color: #8d8d8dce;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 187px;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+  margin-bottom: 60px;
+}
+
+.allJobsBtn {
+  background-color: #274059;
+  color: white;
+  border: none;
+  padding: 15px 45px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.allJobsBtn:hover {
+  background-color: #3c6693;
+}

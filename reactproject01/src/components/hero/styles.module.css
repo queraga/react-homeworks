@@ -1,0 +1,95 @@
+.hero {
+  background-color: #cde7ff;
+  background-image: url("../../assets/icons/backgroundRectangle.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%;
+  z-index: 0;
+
+  h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+  }
+  .container {
+    padding: 100px;
+  }
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-bottom: 295px;
+  max-width: 1132px;
+  width: 100%;
+
+  input {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 25px 0px 25px 20px;
+    height: 105px;
+  }
+  .inputJob,
+  .inputLocation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  .inputJob {
+    padding-left: 35px;
+  }
+
+  .inputLocation {
+    padding-left: 130px;
+  }
+  input::placeholder {
+    color: black;
+  }
+}
+
+.divider {
+  height: 20px;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.searchBtn {
+  background-color: #274059;
+  color: white;
+  padding: 41px 70px;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+}
+.searchBtn:hover {
+  background-color: #3c6693;
+}
+
+.helpText {
+  color: #696969;
+  font-size: 16px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  background-color: white;
+  height: 180px;
+}
+
+.logosImages {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}

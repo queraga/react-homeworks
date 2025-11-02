@@ -1,0 +1,26 @@
+.card {
+  width: 270px;
+  height: 198px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.more {
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  box-shadow: none;
+  justify-content: center;
+  background-color: transparent;
+}

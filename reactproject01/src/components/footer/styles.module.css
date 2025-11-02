@@ -1,0 +1,40 @@
+.footer {
+  background-color: #52606d;
+  color: #c1c7cd;
+  padding: 50px 100px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 30px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.socials img:hover {
+  opacity: 0.7;
+}

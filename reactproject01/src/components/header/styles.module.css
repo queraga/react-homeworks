@@ -1,0 +1,39 @@
+.header {
+  background-color: #cde7ff;
+  display: flex;
+  gap: 110px;
+  padding: 30px 100px;
+}
+
+.coolJobIcon {
+  width: 140px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+  ul,
+  div {
+    display: flex;
+    list-style: none;
+    gap: 53px;
+    align-items: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .loginBtn {
+    width: 65px;
+    height: 44px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: black;
+  }
+}
