@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #c7c7ee;
+  color: rgb(42, 37, 15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.btnSwitch {
+  background-color: antiquewhite;
+  color: black;
+  border: none;
+  margin-top: 10px;
+  border-radius: 12px;
+  padding: 6px 8px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btnSwitch:hover {
+  background-color: black;
+  color: antiquewhite;
+  transform: scale(1.05);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px;
+}
