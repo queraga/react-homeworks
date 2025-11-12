@@ -4,3 +4,23 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px 80px;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.contentWrapper > div:first-child {
+  flex: 2;
+  margin-right: 40px;
+}
+
+.contentWrapper > div:last-child {
+  flex: 1;
+  max-width: 400px;
+}

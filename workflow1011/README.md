@@ -1,16 +1,70 @@
-# React + Vite
+# 📰 React Posts App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that displays a list of posts fetched from [MockAPI.io](https://mockapi.io) and allows creating new ones via a form.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+This mini project was built as a practice task to learn:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Working with **React components**
+- Using **axios** for API requests
+- Managing state with **useState** and **useEffect**
+- Handling forms with **react-hook-form**
+- Styling with **CSS Modules**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Features
+
+- Fetch posts from an API (`GET`)
+- Display them dynamically using reusable components
+- Add a new post through a form (`POST`)
+- Responsive layout with separate Post List and Post Form blocks
+- Clean structure with modular components
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Vite)
+- **Axios**
+- **React Hook Form**
+- **CSS Modules**
+- **MockAPI.io** (as backend simulation)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── header/
+│   │   ├── index.jsx
+│   │   └── styles.module.css
+│   ├── post/
+│   │   ├── index.jsx
+│   │   └── styles.module.css
+│   ├── postForm/
+│   │   ├── index.jsx
+│   │   └── styles.module.css
+│   └── postList/
+│       ├── index.jsx
+│       └── styles.module.css
+├── App.jsx
+└── App.css
+
+```
+
+🧠 Key Learning Points
+• Understanding how data flows between components via props
+• Using React Hooks for side effects and state management
+• Sending and receiving data with Axios
+• Building modular and reusable UI components
+
+✍️ Author
+Queraga
+https://github.com/queraga
+📍 Berlin, Germany

@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 30px 90px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 70px;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(20, 4, 103);
+  font-weight: bold;
+  transition: 0.4;
+}
+
+.container a:hover {
+  color: white;
+}

@@ -1,0 +1,37 @@
+.postList {
+  background-color: rgb(227, 226, 228);
+  padding: 40px;
+  border-radius: 8px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #0b0b0b;
+}
+
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.moreBtn {
+  display: block;
+  margin: 25px auto 0;
+  background-color: #4c8bf5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.moreBtn:hover {
+  background-color: #25337a;
+}
