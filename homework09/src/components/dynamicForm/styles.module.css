@@ -1,0 +1,28 @@
+.container {
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fafafa;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+  font-family: "Poppins", sans-serif;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.2s border-color;
+}
+
+.input:focus {
+  border-color: #4d7cff;
+}
+
+.error {
+  color: #d63031;
+  font-size: 13px;
+  margin-top: 6px;
+}
