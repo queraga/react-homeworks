@@ -4,10 +4,11 @@ import { useRef, useState } from "react";
 function ToggleText() {
   const textAwayRef = useRef(null);
 
-  const [duration, setDuration] = useState(300);
+  const [duration, setDuration] = useState(3000);
 
   const toggleVisibility = () => {
     if (!textAwayRef.current) return;
+
     textAwayRef.current.classList.toggle(styles.hidden);
   };
   return (
@@ -31,7 +32,9 @@ function ToggleText() {
         <p
           ref={textAwayRef}
           className={styles.textBlock}
-          style={{ transition: `opacity ${duration}ms` }}
+          style={{
+            transition: `opacity ${duration}ms, max-height ${duration}ms`,
+          }}
         >
           Clean the trash! Make me go away from here.
         </p>

@@ -1,7 +1,10 @@
-.visible {
+.textBlock {
+  max-height: 200px;
+  overflow: hidden;
   opacity: 1;
 }
 
 .hidden {
   opacity: 0;
+  max-height: 0;
 }
