@@ -1,0 +1,12 @@
+.userLink {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+.userLink:hover {
+  color: #4da3ff;
+}
+
+.userLink:visited {
+  text-decoration: none;
+}

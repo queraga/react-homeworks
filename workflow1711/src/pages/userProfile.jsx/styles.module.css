@@ -1,0 +1,15 @@
+.profile {
+  padding: 40px;
+  text-align: center;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 20px;
+  color: #666;
+}
