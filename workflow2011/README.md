@@ -1,16 +1,71 @@
-# React + Vite
+📘 React Animations Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Fade • Scale • Slide Components
 
-Currently, two official plugins are available:
+This project contains three small interactive UI components built with React, useRef, useState, and CSS transition-based animations.
+The goal was to practice DOM references, dynamic classes, animation timing control, and modular CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Components Overview
 
-## React Compiler
+1️⃣ Fade Text (ToggleText)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📌 Smoothly hides and shows text by animating opacity & max-height
+📌 Animation duration controlled by user input
+📌 Built with useRef, useState and CSS transitions
 
-## Expanding the ESLint configuration
+Features:
+• Toggle button
+• Dynamic duration
+• Fade-out + collapse animation
+• Modular CSS styles
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2️⃣ Scale Element
+
+📌 Element smoothly grows/shrinks
+📌 Class toggling controls transformation
+📌 Uses CSS transform: scale()
+
+Features:
+• Uses useRef
+• Customizable animation duration
+• Clean reusable JSX structure
+• Scale-up / scale-down transitions
+
+3️⃣ Slider Block
+
+📌 Block slides in/out horizontally
+📌 CSS transform + opacity transition
+📌 Uses class toggle for animation control
+
+Features:
+• Uses useRef
+• Horizontal movement via translateX
+• Smooth slide animation
+
+🛠 Tech Stack
+• React 18+
+• useRef / useState hooks
+• CSS Modules
+• Transition-based animations
+• Vite / CRA (depending on project setup)
+
+📂 Project Structure
+
+```
+src/
+ ├─ components/
+ │   ├─ toggleText/
+ │   │    ├─ index.jsx
+ │   │    └─ styles.module.css
+ │   ├─ scaleElement/
+ │   │    ├─ index.jsx
+ │   │    └─ styles.module.css
+ │   └─ slider/
+ │        ├─ index.jsx
+ │        └─ styles.module.css
+ ├─ App.jsx
+ └─ main.jsx
+
+```
+
+✍️ Author Queraga https://github.com/queraga 📍 Berlin, Germany

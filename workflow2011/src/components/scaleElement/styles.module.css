@@ -1,12 +1,12 @@
-.textBlock {
-  max-height: 200px;
-  overflow: hidden;
+.scale {
   opacity: 1;
+  transform: scale(1);
+  text-align: center;
 }
 
-.hidden {
+.scaleHidden {
   opacity: 0;
-  max-height: 0;
+  transform: scale(0.8);
 }
 
 .wrapper {
@@ -19,18 +19,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.label {
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 6px;
-}
-
-.input {
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
 }
 
 .btn {
@@ -47,15 +35,4 @@
 
 .btn:hover {
   background: #3668d8;
-}
-
-.textBlock {
-  max-height: 200px;
-  overflow: hidden;
-  opacity: 1;
-}
-
-.hidden {
-  opacity: 0;
-  max-height: 0;
 }

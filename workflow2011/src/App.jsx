@@ -1,5 +1,8 @@
 import "./App.css";
+import ScaleElement from "./components/scaleElement";
 import ToggleText from "./components/toggleText";
+import Slider from "./components/slider";
+
 // import { useRef, useState } from "react";
 
 function App() {
@@ -33,6 +36,8 @@ function App() {
   return (
     <div>
       <ToggleText />
+      <ScaleElement />
+      <Slider />
     </div>
   );
   // <button

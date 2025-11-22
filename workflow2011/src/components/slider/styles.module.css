@@ -1,15 +1,14 @@
-.textBlock {
-  max-height: 200px;
-  overflow: hidden;
-  opacity: 1;
+.slide {
+  transition: transform 0.4s ease;
+  transform: translateX(0);
 }
 
-.hidden {
-  opacity: 0;
-  max-height: 0;
+.slideHidden {
+  transform: translateX(-820%);
 }
 
 .wrapper {
+  text-align: center;
   width: 400px;
   margin: 30px auto;
   padding: 20px;
@@ -19,18 +18,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.label {
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 6px;
-}
-
-.input {
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
 }
 
 .btn {
@@ -47,15 +34,4 @@
 
 .btn:hover {
   background: #3668d8;
-}
-
-.textBlock {
-  max-height: 200px;
-  overflow: hidden;
-  opacity: 1;
-}
-
-.hidden {
-  opacity: 0;
-  max-height: 0;
 }
