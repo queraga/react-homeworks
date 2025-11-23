@@ -12,14 +12,16 @@ A simple React app that fetches random cat images from TheCatAPI using axios, up
 • 💅 Styled with CSS modules
 • 🎛 Button to load a new cat instantly
 
+📂 Project Structure
+
 ```
-🚀 Features
-	•	🐈 Fetches random cat images from API
-	•	🔄 Shows loader while fetching
-	•	⚡ Uses axios for HTTP requests
-	•	🎣 Uses useEffect and useState
-	•	💅 Styled with CSS modules
-	•	🎛 Button to load a new cat instantly
+src/
+ ├── components/
+ │    └── catImage/
+ │          ├── CatImage.jsx
+ │          └── styles.module.css
+ ├── App.jsx
+ └── main.jsx
 
 ```
 
