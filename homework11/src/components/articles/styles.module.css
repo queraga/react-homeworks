@@ -1,0 +1,35 @@
+.articlesList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.articleCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.articleCard p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.articleCard button {
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #36baf7;
+  color: white;
+  cursor: pointer;
+}
+
+.articleCard button:hover {
+  background-color: #1fa3e8;
+}
